@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="https://schema.org/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://schema.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema14.xsd" namespace="https://ci.mines-stetienne.fr/seas/BuildingOntology-1.0" />
+  <xs:import schemaLocation="schema15.xsd" namespace="https://www.wikipedia.org/" />
+  <xs:import schemaLocation="schema16.xsd" namespace="http://softeng.polito.it/rsctx/" />
+  <xs:element name="Place">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="House" type="xs:unsignedByte" />
+        <xs:element name="School" type="xs:unsignedByte" />
+        <xs:element xmlns:q1="https://ci.mines-stetienne.fr/seas/BuildingOntology-1.0" ref="q1:Office" />
+        <xs:element name="LocalBusiness" type="xs:unsignedByte" />
+        <xs:element xmlns:q2="https://www.wikipedia.org/" ref="q2:workshop" />
+        <xs:element xmlns:q3="http://softeng.polito.it/rsctx/" ref="q3:transportationMean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DayOfWeek">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Sunday" type="xs:unsignedByte" />
+        <xs:element name="Monday" type="xs:unsignedByte" />
+        <xs:element name="Tuesday" type="xs:unsignedByte" />
+        <xs:element name="Wednesday" type="xs:unsignedByte" />
+        <xs:element name="Thursday" type="xs:unsignedByte" />
+        <xs:element name="Friday" type="xs:unsignedByte" />
+        <xs:element name="Saturday" type="xs:unsignedByte" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Number" type="xs:unsignedShort" />
+</xs:schema>

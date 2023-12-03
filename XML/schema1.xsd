@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://rdfs.co/juso/latest/html" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://rdfs.co/juso/latest/html" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema2.xsd" namespace="http://www.kunsan.ac.kr/sw/" />
+  <xs:import schemaLocation="schema3.xsd" namespace="https://saref.etsi.org/saref4watr/WaterUse" />
+  <xs:import schemaLocation="schema4.xsd" namespace="https://qasimkhalid.github.io/SBEO/#Fire" />
+  <xs:import schemaLocation="schema10.xsd" namespace="http://www.ontotext.com/proton/protonext#Accident" />
+  <xs:element name="District">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://www.kunsan.ac.kr/sw/" ref="q1:firesafetyscore" />
+        <xs:element xmlns:q2="https://saref.etsi.org/saref4watr/WaterUse" ref="q2:WaterUse" />
+        <xs:element xmlns:q3="https://qasimkhalid.github.io/SBEO/#Fire" ref="q3:Fire" />
+        <xs:element xmlns:q4="http://www.ontotext.com/proton/protonext#Accident" ref="q4:Building" />
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

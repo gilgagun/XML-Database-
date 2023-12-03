@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="https://ci.mines-stetienne.fr/seas/BuildingOntology-1.0" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://ci.mines-stetienne.fr/seas/BuildingOntology-1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Office" type="xs:unsignedByte" />
+</xs:schema>

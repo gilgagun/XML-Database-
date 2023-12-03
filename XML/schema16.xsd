@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://softeng.polito.it/rsctx/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://softeng.polito.it/rsctx/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="transportationMean" type="xs:unsignedByte" />
+</xs:schema>

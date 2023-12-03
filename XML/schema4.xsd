@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="https://qasimkhalid.github.io/SBEO/#Fire" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://qasimkhalid.github.io/SBEO/#Fire" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema5.xsd" namespace="http://vocab.datex.org/terms#accidentCause" />
+  <xs:import schemaLocation="schema13.xsd" namespace="https://schema.org/" />
+  <xs:element name="Fire">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://vocab.datex.org/terms#accidentCause" ref="q1:accidentCause" />
+        <xs:element xmlns:q2="https://schema.org/" ref="q2:Place" />
+        <xs:element xmlns:q3="https://schema.org/" ref="q3:DayOfWeek" />
+        <xs:element xmlns:q4="https://schema.org/" ref="q4:Number" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

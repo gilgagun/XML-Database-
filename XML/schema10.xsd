@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.ontotext.com/proton/protonext#Accident" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.ontotext.com/proton/protonext#Accident" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema13.xsd" namespace="https://schema.org/" />
+  <xs:import schemaLocation="schema6.xsd" namespace="https://saref.etsi.org/saref4wear/ElectricalProperty" />
+  <xs:import schemaLocation="schema12.xsd" namespace="http://dbpedia.org/ontology/" />
+  <xs:element name="Accident" type="xs:unsignedByte" />
+  <xs:element name="NaturalPhenomenon" type="xs:unsignedByte" />
+  <xs:element name="Building">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="https://schema.org/" ref="q1:Number" />
+        <xs:element xmlns:q2="https://saref.etsi.org/saref4wear/ElectricalProperty" ref="q2:Occurrence" />
+        <xs:element xmlns:q3="http://dbpedia.org/ontology/" ref="q3:ratio" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

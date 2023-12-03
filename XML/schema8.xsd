@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="https://w3id.org/skgo/modsci#ChemicalPhenomena" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://w3id.org/skgo/modsci#ChemicalPhenomena" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ChemicalPhenomena" type="xs:unsignedByte" />
+</xs:schema>

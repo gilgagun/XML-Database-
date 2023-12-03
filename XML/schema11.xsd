@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://purl.org/ipo/core#causes" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://purl.org/ipo/core#causes" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="causes" type="xs:unsignedByte" />
+</xs:schema>

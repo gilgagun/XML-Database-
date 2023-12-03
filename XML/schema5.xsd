@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://vocab.datex.org/terms#accidentCause" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://vocab.datex.org/terms#accidentCause" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema6.xsd" namespace="https://saref.etsi.org/saref4wear/ElectricalProperty" />
+  <xs:import schemaLocation="schema7.xsd" namespace="http://spitfire-project.eu/ontology/ns/Mechanical" />
+  <xs:import schemaLocation="schema8.xsd" namespace="https://w3id.org/skgo/modsci#ChemicalPhenomena" />
+  <xs:import schemaLocation="schema9.xsd" namespace="http://vcharpenay.github.io/hto/hto.xml#Gas" />
+  <xs:import schemaLocation="schema10.xsd" namespace="http://www.ontotext.com/proton/protonext#Accident" />
+  <xs:import schemaLocation="schema11.xsd" namespace="http://purl.org/ipo/core#causes" />
+  <xs:import schemaLocation="schema12.xsd" namespace="http://dbpedia.org/ontology/" />
+  <xs:element name="accidentCause">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="https://saref.etsi.org/saref4wear/ElectricalProperty" ref="q1:ElectricalProperty" />
+        <xs:element xmlns:q2="http://spitfire-project.eu/ontology/ns/Mechanical" ref="q2:Mechanical" />
+        <xs:element xmlns:q3="https://w3id.org/skgo/modsci#ChemicalPhenomena" ref="q3:ChemicalPhenomena" />
+        <xs:element xmlns:q4="http://vcharpenay.github.io/hto/hto.xml#Gas" ref="q4:Gas" />
+        <xs:element xmlns:q5="http://www.ontotext.com/proton/protonext#Accident" ref="q5:Accident" />
+        <xs:element xmlns:q6="http://purl.org/ipo/core#causes" ref="q6:causes" />
+        <xs:element xmlns:q7="http://www.ontotext.com/proton/protonext#Accident" ref="q7:NaturalPhenomenon" />
+        <xs:element xmlns:q8="http://dbpedia.org/ontology/" ref="q8:Unknown" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

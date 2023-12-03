@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://dbpedia.org/ontology/" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://dbpedia.org/ontology/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Unknown" type="xs:unsignedByte" />
+  <xs:element name="ratio" type="xs:decimal" />
+</xs:schema>

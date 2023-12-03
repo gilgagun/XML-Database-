@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:pext="http://www.ontotext.com/proton/protonext#Accident" xmlns:s4watr="https://saref.etsi.org/saref4watr/WaterUse" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xmlns:datex="http://vocab.datex.org/terms#accidentCause" xmlns:sw="http://www.kunsan.ac.kr/sw/" xmlns:sbeo="https://qasimkhalid.github.io/SBEO/#Fire" xmlns:spt="http://spitfire-project.eu/ontology/ns/Mechanical" xmlns:rsctx="http://softeng.polito.it/rsctx/" xmlns:ipo="http://purl.org/ipo/core#causes" xmlns:hto="http://vcharpenay.github.io/hto/hto.xml#Gas" xmlns:s4wear="https://saref.etsi.org/saref4wear/ElectricalProperty" xmlns:schema="https://schema.org/" xmlns:modsci="https://w3id.org/skgo/modsci#ChemicalPhenomena" xmlns:juso="http://rdfs.co/juso/latest/html" xmlns:seasbo="https://ci.mines-stetienne.fr/seas/BuildingOntology-1.0" xmlns:wikipedia="https://www.wikipedia.org/" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="schema1.xsd" namespace="http://rdfs.co/juso/latest/html" />
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="juso:District" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
