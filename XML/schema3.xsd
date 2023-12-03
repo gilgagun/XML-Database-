@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="https://saref.etsi.org/saref4watr/WaterUse" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://saref.etsi.org/saref4watr/WaterUse" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="WaterUse" type="xs:unsignedShort" />
+</xs:schema>
