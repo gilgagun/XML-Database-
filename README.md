@@ -1,4 +1,4 @@
-# XML + Databse Project
+# XML + Database Project
 
 
 ## 프로젝트 소개
